@@ -30,6 +30,7 @@ a {
 /* 바디 폰트 적용 */
 body{
    font-family: "Noto Sans", sans-serif;
+   
 }
 
 /* 공통 영역 */
@@ -37,6 +38,7 @@ body{
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  background-color: rgb(255, 217, 0);
 }
 
 .wrap{
