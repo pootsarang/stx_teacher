@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+.footer{
+  width: 100%;
+  background-color: rgb(116, 116, 116);
+  padding: 50px 100px;
+}
+
+.footer-inner{
+  display: flex;
+  gap: 150px;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+

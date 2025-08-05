@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.about{
+    padding-bottom: 100px
+}
+.about-inner{
+display: flex;
+position: relative;
+gap: 20px;
+height: 600px;
+}
+
+.about h1{
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.about-subtxt{
+     display: flex;
+     gap: 80px;
+     padding-top: 50px;
+}
+
+.about-subtxt span{
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    display: block;
+    margin-top: 30px;
+}
+
+.about-subtxtbox p{
+    margin-bottom: 20px;
+}
+
+.about-subtxtbox p:first-child{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about-subtxtbox p:last-child{
+    font-weight: 300;
+}
+
+.about-img{
+    position: absolute;
+    top: 94px;
+    right: 0;
+}
+
+
+.ul-about{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ul-about li p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.imgbox-1{
+    background: url("../images/bg_icon.png") no-repeat;
+    width: 103px;
+    height: 108px;
+}
+
+.imgbox-2{
+    background: url("../images/bg_icon.png") no-repeat;
+    width: 103px;
+    height: 108px;
+    background-position: -115px 0px;
+}
+
+.imgbox-3{
+    background: url("../images/bg_icon.png") no-repeat;
+    width: 103px;
+    height: 108px;
+    background-position: -235px 0px;
+}
+
