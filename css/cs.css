@@ -41,32 +41,26 @@
     font-weight: 600;
 }
 
+
 .cs  p{
     font-weight: 300;
 }
 
-.cs-1::after{
-    content: "";
-    position: absolute;
-    top: 40px;
-    right: 0;
-    background: url("../images/bg_faq.png") no-repeat;
-    display: block;
-    width: 178px;
-    height: 103px;
-    margin-right: 50px;
-
+.cs-1 > a{
+    display: flex;
+    gap: 30px;
+}
+.cs-2 > a{
+    display: flex;
+        gap: 30px;
+    
 
 }
 
-.cs-2::after{
-    content: "";
-    position: absolute;
-    top: 40px;
-    right: 0;
-    background: url("../images/bg_custom.png") no-repeat;
-    display: block;
-    width: 122px;
-    height: 122px;
-    margin-right: 50px;
+.cs-1-img{
+    margin-top: 15px;
+}
+
+.cs-2-img{
+    margin-top: 5px;
 }

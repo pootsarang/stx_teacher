@@ -27,6 +27,8 @@
     <meta property="og:image" content="images/metaimg.png" />
     <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
     <meta property="og:description" content="STX건설 웹사이트입니다." />
+    <!-- js -->
+    <script src="js/main.js"></script>
   </head>
 
   <body>
@@ -34,6 +36,7 @@
     <div class="wrap">
       <!-- 상단 -->
       <header class="header">
+        <div class="header-bg"></div>
         <!-- 헤더 이너 -->
         <div class="header-inner">
           <!-- 로고 -->
@@ -41,14 +44,65 @@
             ><img src="./images/smstxconst_logo.png" alt="stx 건설"
           /></a>
           <!-- 메뉴 -->
+          <!-- 메뉴 -->
           <nav class="nav">
             <ul class="gnb">
-              <li><a href="#">회사소개</a></li>
-              <li><a href="#">사업분야</a></li>
-              <li><a href="#">사회공헌</a></li>
-              <li><a href="#">홍보센터</a></li>
-              <li><a href="#">고객지원</a></li>
-              <li><a href="#">채용정보</a></li>
+              <li>
+                <a href="#">회사소개</a>
+                <ul class="depth2">
+                  <li><a href="#">인사말</a></li>
+                  <li><a href="#">STX건설</a></li>
+                  <li><a href="#">기업문화</a></li>
+                  <li><a href="#">STX건설연혁</a></li>
+                  <li><a href="#">조직안내</a></li>
+                  <li><a href="#">윤리경영</a></li>
+                  <li><a href="#">안전·보건·품질경영</a></li>
+                  <li><a href="#">찾아오시는길</a></li>
+                </ul>
+              </li>
+
+              <!-- ul>li*5>a[href=#]{메뉴$} -->
+              <li>
+                <a href="#">사업분야</a>
+                <ul class="depth2">
+                  <li><a href="#">건축사업</a></li>
+                  <li><a href="#">주택사업</a></li>
+                  <li><a href="#">토목사업</a></li>
+                  <li><a href="#">플랜트/공작기계사업</a></li>
+                  <li><a href="#">해외사업</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">사회공헌</a>
+                <ul class="depth2">
+                  <li><a href="#">나눔의생각</a></li>
+                  <li><a href="#">주요활동분야</a></li>
+                  <li><a href="#">활동현황</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">홍보센터</a>
+                <ul class="depth2">
+                  <li><a href="#">홍보동영상</a></li>
+                  <li><a href="#">홍보브로슈어</a></li>
+                  <li><a href="#">STX건설뉴스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">고객지원</a>
+                <ul class="depth2">
+                  <li><a href="#">자주묻는질문</a></li>
+                  <li><a href="#">고객문의</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">채용정보</a>
+                <ul class="depth2">
+                  <li><a href="#">채용안내</a></li>
+                  <li><a href="#">채용공고</a></li>
+                  <li><a href="#">채용FAQ</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
 
@@ -183,24 +237,32 @@
         <div class="cs-bg"></div>
         <div class="cs-inner container">
           <div class="cs-1">
-            <a href="#"
-              ><h1>FAQ</h1>
-              <p>
-                STX 건설 고객님들을 위해
-                <br />
-                자주 하시는 질문과 답변을 정리하였습니다.
-              </p></a
-            >
+            <a href="#">
+              <div class="cs-1-txt">
+                <h1>FAQ</h1>
+                <p>
+                  STX 건설 고객님들을 위해
+                  <br />
+                  자주 하시는 질문과 답변을 정리하였습니다.
+                </p>
+              </div>
+              <div class="cs-1-img">
+                <img src="./images/bg_faq.png" alt="노트북 사진" /></div
+            ></a>
           </div>
           <div class="cs-2">
-            <a href="#"
-              ><h1>고객 문의</h1>
-              <p>
-                STX 건설 고객 상담은 고객만족
-                <br />
-                서비스를 위하여 최선을 다하고 있습니다.
-              </p></a
-            >
+            <a href="#">
+              <div class="cs-2-txt">
+                <h1>고객 문의</h1>
+                <p>
+                  STX 건설 고객 상담은 고객만족
+                  <br />
+                  서비스를 위하여 최선을 다하고 있습니다.
+                </p>
+              </div>
+              <div class="cs-2-img">
+                <img src="./images/bg_custom.png" alt="헤드셋 사진" /></div
+            ></a>
           </div>
         </div>
       </section>
@@ -260,19 +322,22 @@
         </div>
       </section>
       <!-- 하단 -->
-       <footer class="footer">
+      <footer class="footer">
         <div class="footer-inner container">
           <div class="footer-img">
-          <img src="./images/logo_footer.png" alt="푸터 로고">
+            <img src="./images/logo_footer.png" alt="푸터 로고" />
+          </div>
+          <p>
+            부산사무소 : (48938) 부산광역시 중구 충장대로5번길 22 (중앙동4가)
+            SM상선빌딩 7층 TEL : 051-791-3000 · FAX : 051-791-3099
+            <br />
+            김해사무소 : (50802) 경상남도 김해시 생림면 나전로276, 타동 TEL :
+            070-8691-2063
+            <br />
+            Copyright ⓒ 2018 STX CONSTRUCTION. LTD. All Rights Reserved.
+          </p>
         </div>
-        <p>부산사무소 : (48938) 부산광역시 중구 충장대로5번길 22 (중앙동4가) SM상선빌딩 7층 TEL : 051-791-3000 · FAX : 051-791-3099
-          <br>
-김해사무소 : (50802) 경상남도 김해시 생림면 나전로276, 타동 TEL : 070-8691-2063
-<br>
-Copyright ⓒ 2018 STX CONSTRUCTION. LTD. All Rights Reserved.</p>
-       </footer>
-        </div>
-        
+      </footer>
     </div>
   </body>
 </html>
